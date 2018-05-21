@@ -1,0 +1,54 @@
+.autoSpec {
+	&_class {
+		display: flex;
+	}
+}
+.autoClass {
+	&__class {
+		position: relative;
+		width: 25%;
+		padding: 100px 20px 0;
+		img {
+			width: 150px;
+			position: absolute;
+			top: 20px;
+			right: 50px;
+		}
+	}
+	&__linkBox {
+		display: flex;
+		height: 100px;
+		background: gray;
+		font-weight: normal;
+		font-size: 20px;
+		padding-top: 40px;
+		border-radius: 10px;
+
+	}
+	&__link {
+		display: block;
+		background: $lightGray;
+		color: $black;
+		padding: 2px 18px;
+		width: 100%;
+		text-align: center;
+		border-radius: 0 0 9px 9px;
+		transition: all 0.3s;
+		&:hover {
+			background: $lime;
+			color: $white;
+		}
+	}
+	&__small {
+
+	}
+	&__midlle {
+
+	}
+	&__premium {
+
+	}
+	&__cargo {
+
+	}
+}

@@ -1,0 +1,19 @@
+// Header site
+
+.headerSite {
+	// background: lime;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	border-bottom: 2px solid red;
+	padding: 20px 10px;
+}
+.contactsSite {
+	display: flex;
+	&__left {
+		// background: red;
+	}
+	&__right {
+		// background: pink;
+	}
+}

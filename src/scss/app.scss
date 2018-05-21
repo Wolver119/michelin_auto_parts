@@ -25,11 +25,12 @@ $media-expressions: (
 @import 'base/helpers';
 @import 'base/reset';
 @import 'base/typography';
+@import 'base/btn-site';
 @import 'base/forms';
+@import 'base/global';
 
-@import 'components/starter-box';
-
-#wrapper {
-  max-width: 1000px;
-  margin: 0 auto;
-}
+@import 'components/header-site';
+@import 'components/banner-site';
+@import 'components/specification-auto';
+@import 'components/weel-specification';
+@import 'components/weel-sale';
