@@ -1,16 +1,49 @@
 .weelSaleSpecific {
-		
 
+}
+
+.type_green {
+	color: $lime;
+	font-size: 18px;
 }
 .weelSale {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
 	align-content: space-between;
-	&__item {
-		width: 33.333%;
-		padding: 30px 20px;
-		border: 1px solid #eeeeee;
-		background-color: $white;
+	p {
+		font-size: 18px;
+		font-weight: 400;
+		padding: 12px 13px 11px;
 	}
+	&__item {
+		width: 32%;
+		margin-bottom: 15px;
+		background-color: $white;
+		border: 1px solid $lightGray;
+.brand {
+	display: flex;
+	justify-content: space-between;
+}
+.weel {
+	display: flex;
+	margin: 0 auto;
+}
+.specific_weel {
+	display: flex;
+}
+.ifobox {
+	font-size: 14px;
+	font-weight: 400;
+	padding: 12px 13px 11px;
+}
+.buy_info {
+	display: flex;
+	align-items: flex-end;
+	justify-content: space-between;
+.link_info {
+	padding: 15px;
+	}
+}
+}
 }

@@ -1,6 +1,22 @@
+
+.conteinerSite {
+	background-image: url(src/images/icons/fig4.png);
+}
+
 .autoSpec {
 	&_class {
 		display: flex;
+	}
+}
+.select {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+
+	p {
+		font-size: 18px;
+		font-weight: 400;
+		line-height: 25px;
 	}
 }
 .autoClass {
@@ -39,16 +55,55 @@
 			color: $white;
 		}
 	}
-	&__small {
+}
 
-	}
-	&__midlle {
+.radius {
+	display: flex;
+	justify-content: flex-start;
+	margin-top: 50px;
+}
 
-	}
-	&__premium {
+.radius__select {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	margin-right: 15px;
 
+	p {
+		font-size: 18px;
+		font-weight: 400;
+		line-height: 25px;
 	}
-	&__cargo {
+}
 
-	}
+.type {
+	display: flex;
+	margin-top: 70px;
+
+	&__select {
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		margin-right: 10px;
+		height: 30%;
+
+		p {
+			font-size: 18px;
+			font-weight: 400;
+			line-height: 25px;
+		}
+}
+	&__selectButton {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: space-around;
+		margin-bottom: 50px;
+		width: 700px;
+		a {
+			width: 22%;
+			margin-bottom: 18px;
+			text-align: center;
+		}
+		}
 }

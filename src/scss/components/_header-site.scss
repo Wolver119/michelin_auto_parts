@@ -1,7 +1,6 @@
 // Header site
 
 .headerSite {
-	// background: lime;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
@@ -10,10 +9,36 @@
 }
 .contactsSite {
 	display: flex;
+	&__number {
+		color: $black;
+		img {
+			height: 20px;
+			margin-right: 5px;
+		}
+	}
 	&__left {
-		// background: red;
+		border-right: 2px solid $midlleGray;
+		margin-right: 15px;
+		padding-right: 15px;
+	}
+	&__tel {
+		font-size: 18px;
 	}
 	&__right {
-		// background: pink;
+
+	}
+	&__moreTel {
+		line-height: 24px;
+		text-decoration: underline dashed $lightBlue;
 	}
 }
+
+.linkSite {
+	&__bold {
+		font-size: 14px;
+		font-weight: 740;
+		line-height: 24px;
+	}
+}
+
+

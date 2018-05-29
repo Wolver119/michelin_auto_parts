@@ -1,6 +1,7 @@
 .btnSite {
 	background: $btn-background;
 	color: $btn-color;
+	transition: all 0.3s;
 	&--text {
 		padding: 1px 3px;
 		border-radius: 5px;
@@ -10,11 +11,8 @@
 	}
 	&--sizeMidlle {
 		font-size: 18px;
-		border-radius: 5px;
+		border-radius: 2px;
 		padding: 15px 18px;
-		box-shadow: inset 0 2px 0 rgba(255, 255, 255, 0.15);
-		background-image: linear-gradient(to top, #4c9c17 0%, #73b422 100%);
-		border: 1px solid #bbbbbb;
 	}
 	&--sizeBig {
 		font-size: 18px;
@@ -24,17 +22,29 @@
 	&--white {
 		background: $white;
 		color: $black;
-		border: 1px solid $lightGray;
+		border: 2px solid $lightGray;
 		font-weight: bold;
+		&.is-active {
+			box-shadow: inset 0 2px 0 rgba(255, 255, 255, 0.15);
+			background-image: linear-gradient(to top, #4c9c17 0%, #73b422 100%);
+			border: 1px solid $lightGray;
+		}
+		&:hover {
+			background: $lightGray;
+			color: $black;
+		}
+	}
+	&--gren {
+		background-color: $lime;
+
 	}
 	&--gray {
 		background: $lightGray;
 		color: $black;
-		font-weight: bold;
 	}
 	&--yellow {
 		background: $turbo;
-		border: 1px solid #bbbbbb;
+		border: 1px solid $lightGray;
 		box-shadow: inset 0 2px 0 rgba(255, 255, 255, 0.15);
 		background-image: linear-gradient(to top, #ffffff 0%, #ffc002 100%);
 	}
